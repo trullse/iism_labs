@@ -6,15 +6,15 @@ def simulate_simple_event(p):
 
 
 def simulate_complex_event(probabilities):
-    return [random.random() < p for p in probabilities]
+    return [random.random() <= p for p in probabilities]
 
 
 def simulate_dependent_event(p_A, p_B_given_A):
-    A = random.random() < p_A
+    A = random.random() <= p_A
     if A:
-        B = random.random() < p_B_given_A
+        B = random.random() <= p_B_given_A
     else:
-        B = random.random() < (1 - p_B_given_A)
+        B = random.random() <= (1 - p_B_given_A)
 
     if A and B:
         return 0  # A and B
