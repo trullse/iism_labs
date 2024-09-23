@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08106277-289d-4421-b801-75d66f8ff8ab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
     "Python.events_simulators_ui.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main_tk.executor": "Run",
+    "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
     "Python.wheel_of_fortune.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
